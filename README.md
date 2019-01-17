@@ -1,26 +1,5 @@
-# Project NTDS
+Warning: Running full reports takes 40 minutes with an average computer.
 
-*Question: Which factors influence the success and popularity of a movie? Can we predict the success of a movie?*
+For running report from the begining original input files tmdb_5000_credits.csv and tmdb_5000_movies.csv need to be placed into Dataset folder after they are downloaded from the git Datasets folder or from original source https://www.kaggle.com/tmdb/tmdb-movie-metadata/data
 
-**Nodes**: movies
-
-**Edges**: 
-- Actors
-    - Actor names 
-    - Popularity of involved actors
-    - Versatility of involved actors
-- Director(s)
-    - Name
-    - Popularity 
-    - Versatility
-- Budget
-- Genre(s)
-- Story
-
-**Labels** = success:
-1. Commercial success:
-    - Revenue
-2. User popularity
-    - IMDb grade
-    - Rotten Tomatoes grade
-    - Media critics grade / appreciation
+Report file takes inputs from Dataset folder and python scripts which are used as supplemetary functions.
