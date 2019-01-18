@@ -1,4 +1,4 @@
-# Analysis of popularity of a 5000 movie dataset
+# A Network Analysis of Movie Popularity
 
 What can we say about the popularity of a movie based on its characteristics? Can certain actors, directors or story lines attract automatically the attention of the public?
 Popularity is defined as the state of being liked, admired or supported by a high number of people. When talking about a movie, it can be measured in several ways, namely how many people went to see the movie on the theaters, the critics' opinion, the movie fans' reviews or the Cinema Authorities' (such as Cannes or the Academy) judgment.
