@@ -14,6 +14,8 @@ Warning: Running full reports takes 25 minutes with an average computer.
 
 For running report from the begining original input files tmdb_5000_credits.csv and tmdb_5000_movies.csv need to be placed into "Data" folder after they are downloaded from the git "Data" folder or from original source https://www.kaggle.com/tmdb/tmdb-movie-metadata/data
 
+Part 1 "Data collecting" does not need to be ran. It can take several days to collect all movies because of the OMDb limit for free accounts. You can run the import cells and go directly to part 2.
+
 Report file takes inputs from Data folder and python scripts which are used as supplemetary functions.
 
 Installations: all packages to be installed can be found on the top of "Analysis.ipynb" notebook.
