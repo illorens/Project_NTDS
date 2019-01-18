@@ -1,4 +1,4 @@
-# Project description
+# Analysis of popularity of a 5000 movie dataset
 
 What can we say about the popularity of a movie based on its characteristics? Can certain actors, directors or story lines attract automatically the attention of the public?
 Popularity is defined as the state of being liked, admired or supported by a high number of people. When talking about a movie, it can be measured in several ways, namely how many people went to see the movie on the theaters, the critics' opinion, the movie fans' reviews or the Cinema Authorities' (such as Cannes or the Academy) judgment.
@@ -8,11 +8,20 @@ The aim of this project is to analyze several movie features by creating a film 
 In order to reflect as close as possible the presented definition of popularity, four main metrics are considered to define it: the grades assigned by movie critics (Metacritic and Rotten Tomatoes), the users' opinions (IMDb grades), the film's box office and its awards (wins and nominations).
 
 
-# Technical aspects
+## Prerequisites
+
+Warning: Running full reports takes 25 minutes with an average computer.
+
+For running report from the begining original input files tmdb_5000_credits.csv and tmdb_5000_movies.csv need to be placed into "Data" folder after they are downloaded from the git "Data" folder or from original source https://www.kaggle.com/tmdb/tmdb-movie-metadata/data
+
+Report file takes inputs from Data folder and python scripts which are used as supplemetary functions.
+
+Installations: all packages to be installed can be found on the top of "Analysis.ipynb" notebook.
 
 
-Warning: Running full reports takes 40 minutes with an average computer.
+## Authors
 
-For running report from the begining original input files tmdb_5000_credits.csv and tmdb_5000_movies.csv need to be placed into Dataset folder after they are downloaded from the git Datasets folder or from original source https://www.kaggle.com/tmdb/tmdb-movie-metadata/data
+Timothée Borget Dit Vorgeat, Yassine Zouaghi, Icíar Lloréns Jover and Pol Boudou Pérez
 
-Report file takes inputs from Dataset folder and python scripts which are used as supplemetary functions.
+
+
